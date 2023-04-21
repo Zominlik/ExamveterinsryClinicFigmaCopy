@@ -1,0 +1,71 @@
+.najot--talim--location {
+    height: 715px;
+    width: 462px;
+}
+
+.feedbacks__wrapper {
+    background-image: url(../../image/goldfish-ImgForContact.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 652px;
+}
+
+.feedbacks__title {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+
+.feedbacks__sub-title {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+    width: 334px;
+}
+
+input {
+    width: 375px;
+    height: 50px;
+    background: #FFFFFF;
+    outline: none;
+}
+
+textarea {
+    width: 375px;
+    height: 165px;
+    background: #FFFFFF;
+    outline: none;
+    resize: none;
+}
+
+.feedbacks__wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #333333;
+    padding-left: 165px;
+    padding-top: 63px;
+    form {
+        display: flex;
+        flex-direction: column;
+        margin-left: -433px;
+        textarea {
+            overflow-x: hidden;
+        }
+    }
+}
+
+.first__texts__wrapper__btn__link {
+    margin-left: -161px;
+}
+
+.feedbacks {
+    display: flex;
+}

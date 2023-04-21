@@ -1,0 +1,55 @@
+.wrapper__address {
+    max-width: 1117px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 258px;
+    height: 39px;
+}
+
+.address__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+.address__r {
+    font-family: Futura PT;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.nav {
+    padding: 0 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 61px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.header__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 55px;
+}
+.address__circle {
+    margin-top: 7px;
+}
+
+.header__item__link {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+}
+.header__item__link:hover {
+    box-shadow: 1px 12px 52px 11px rgba(246,246,19,0.87);
+-webkit-box-shadow: 1px 12px 52px 11px rgba(246,246,19,0.87);
+-moz-box-shadow: 1px 12px 52px 11px rgba(246,246,19,0.87);
+}
+// header

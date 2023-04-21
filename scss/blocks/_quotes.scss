@@ -1,0 +1,37 @@
+.quotes {
+    height: 481px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 266px;
+    padding-right: 207px;
+}
+
+.hr {
+    width: 140px;
+}
+
+.quotes__img {
+margin-bottom: 301px;
+}
+
+.quotes__img-reverce {
+    transform: rotate(180deg);
+}
+
+.quotes__sub-title {
+    font-family: Futura PT;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 803px;
+}
+
+.quotes__text {
+    text-align: center;
+    color: rgba(51, 51, 51, 1);
+    font-family: Futura PT;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+}

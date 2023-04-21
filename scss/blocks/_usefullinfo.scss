@@ -1,0 +1,87 @@
+.usefullinfo__title {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 20px;
+    color: #333333;
+    text-align: center;
+}
+
+.usefullinfo__card__sub-title {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+    width: 244px;
+}
+
+.usefullinfo__card {
+    width: 305px;
+    height: 435px;
+    border: 1px solid #E4E4E2;
+    border-radius: 5px;
+}
+
+.usefullinfo__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.usefullinfo {
+    height: 1038px;
+    padding: 71px;
+    padding-top: 216px;
+}
+
+.usefullinfo__card-second-wrapper {
+    width: 255px;
+    height: 58px;
+    border: 1px solid #E4E4E2;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 67px;
+    padding: 42px 35px 29px 30px;
+}
+
+.usefullinfo__card-right-texts-box-sub-title {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+
+.usefullinfo--middle-card {
+    display: flex;
+    margin-right: 333px;
+}
+
+.usefullinfo__card__text {
+    text-align: end;
+
+}
+
+.usefullinfo__card-right {
+    margin-left: 25px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.usefullinfo__card-for-hashtags {
+    display: flex;
+    gap: 8px;
+}
+
+.for-hashtags {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #3D9CEA;
+}

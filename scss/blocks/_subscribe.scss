@@ -1,0 +1,49 @@
+.subscribe {
+    background-image: url(../../image/ForSubscribeImgDogPaws.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 308px;
+    max-width: 1440px;
+    border-radius: 5px;
+    display: flex;
+    padding-right: 60px;
+    padding-left: 282px;
+}
+
+.subscribe--box {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe__title {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.subscribe__input {
+    width: 335px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+.subscribe__dog__image {
+    transform: translateY(-22px);
+}
+
+::placeholder {
+    transform: translateX(19px);
+}
